@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkH
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg";
 global.devs = "255625774543";
-global.sudo = process.env.SUDO || "255625774543";
-global.owner = process.env.OWNER_NUMBER || "255625774543";
+global.sudo = process.env.SUDO || "";
+global.owner = process.env.OWNER_NUMBER || "2349130371354";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -32,10 +32,10 @@ global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "true";
+global.read_status = process.env.AUTO_READ_STATUS || "false";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.read_status_from = process.env.READ_STATUS_FROM || "false";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://rb.gy/nl69nj";
@@ -45,24 +45,24 @@ global.SESSION_ID =
   ""
 module.exports = {
   menu: process.env.MENU || "",
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "*",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝐅𝐈𝐋𝐄-𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃-𝐁𝐘-𝐕𝐄𝐍𝐎𝐂𝐘𝐁𝐄𝐑-𝐌𝐃 ╠════ need support then ☞ https://rb.gy/izabex ═════╣",
-  author: process.env.PACK_AUTHER || "VENOCYBER",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "VENOCYBER-𝐌𝐃",
-  ownername: process.env.OWNER_NAME || "VENOCYBER",
+  caption: process.env.CAPTION || "ꪻ᥇ꪮꪗ",
+  author: process.env.PACK_AUTHER || "ꪻ᥇ꪮꪗ",
+  packname: process.env.PACK_NAME || "†",
+  botname: process.env.BOT_NAME || "ꪻ᥇ꪮꪗ™",
+  ownername: process.env.OWNER_NAME || "ꪻ᥇ꪮꪗ™",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
-  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
+  REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "eM8Wi4GuwnipWihNVFe65rAJ",
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
+  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "601a300339f538ac289f4f731cc4815d",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "VENOCYBER").toUpperCase(),
 };
